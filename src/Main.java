@@ -17,7 +17,7 @@ public class Main {
 		// xが0以上かつyが偶数の場合にコンソールにtrue
 		int x = 3;
 		int y = 90;
-		boolean isResult3 = (x >= 0 && y % 2 ==0);
+		boolean isResult3 = (x >= 0 && y % 2 == 0);
 		System.out.println(isResult3);
 		
 		// hasPermissionがfalseの場合にtrue
