@@ -2,10 +2,16 @@
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("こんにちは私はGeek君です。");
-		System.out.println(10);
-		System.out.println("20" + "24");
-		System.out.println(3.14);
-		System.out.println(true);
+	    int num1 = 17;
+	    double num2 = 1.4142;
+	    String myFavorite = "私の好きな";
+	    String desu = "です。";
+	    String dispNum1 = "{" + num1 + "}";
+	    String dispNum2 = "{" + num2 + "}";
+	    
+	    System.out.println(dispNum1);
+	    System.out.println(dispNum2);
+	    System.out.println(myFavorite + "整数は" + dispNum1 + desu);
+	    System.out.println(myFavorite + "小数は" + dispNum2 + desu);
 	}
 }
